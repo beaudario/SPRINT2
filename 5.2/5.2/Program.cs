@@ -13,7 +13,7 @@ namespace _5._2
             for (int counter = 1; counter <= 25; counter++)
             {
                 int square = counter * counter;
-                Console.WriteLine("{0}   {1}", counter, square);
+                Console.WriteLine(counter, square);
             }
             Console.ReadKey();
         }
