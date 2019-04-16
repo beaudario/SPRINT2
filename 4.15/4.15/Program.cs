@@ -10,6 +10,7 @@ namespace _4._15
     {
         static void Main(string[] args)
         {
+            //UserInput
             Console.Write("Geef aantal punten voor  wiskunde: ");
             int PuntenWiskunde = Convert.ToInt16(Console.ReadLine());
 
@@ -19,7 +20,7 @@ namespace _4._15
             Console.Write("Geef totaal aantal punten: ");
             int PuntenTotaal = Convert.ToInt16(Console.ReadLine());
 
-
+            //ShowOutcome
             if (PuntenNatuurkunde >= 60 && PuntenWiskunde >= 60)
             {
                 Console.WriteLine("Je mag deelnemen aan het examen.");
