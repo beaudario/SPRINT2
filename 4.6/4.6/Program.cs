@@ -11,6 +11,7 @@ namespace _4._6
         {
             static void Main(string[] args)
             {
+                //UserInput
                 Console.Write("Geef aantal werkuren: ");
                 int AantalWerkUren = Convert.ToInt16(Console.ReadLine());
 
@@ -19,7 +20,8 @@ namespace _4._6
 
                 Console.Write("Geef aantal storingen voor dit jaar: ");
                 int AantalStoringen = Convert.ToInt16(Console.ReadLine());
-
+                
+                //ShowOutcome
                 if (AantalWerkUren >= 10000)
                 {
                     Console.WriteLine("Machine moet vervangen worden.");
