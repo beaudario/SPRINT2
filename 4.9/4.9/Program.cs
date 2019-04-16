@@ -14,9 +14,11 @@ namespace _4._9
         {
             static void Main(string[] args)
             {
+                //UserInput
                 Console.Write("Geef maand nummer (bijv. 9): ");
                 int MonthNumber = Convert.ToInt16(Console.ReadLine());
 
+                //ShowMonthName
                 DateTime DateValue = new DateTime(2000, MonthNumber, 1);
                 Console.WriteLine(DateValue.ToString("MMMM"));
                 Console.ReadKey();
