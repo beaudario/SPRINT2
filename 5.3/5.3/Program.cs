@@ -10,6 +10,7 @@ namespace _5._3
     {
         static void Main(string[] args)
         {
+            //UserInput
             Console.Write("Geef getal 1: ");
             string getal1 = Console.ReadLine();
             int Getal1 = Convert.ToInt32(getal1);
@@ -18,9 +19,10 @@ namespace _5._3
             string getal2 = Console.ReadLine();
             int Getal2 = Convert.ToInt32(getal2);
 
-            for (int Getal1 <= int Getal2; Getal1++)
+            //ShowNumbers
+            for (int i = Getal1; i <= Getal2; i++)
             {
-                Console.WriteLine(counter);
+                Console.WriteLine(i);
             }
             Console.ReadKey();
         }
