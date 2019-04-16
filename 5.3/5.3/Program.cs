@@ -18,7 +18,7 @@ namespace _5._3
             string getal2 = Console.ReadLine();
             int Getal2 = Convert.ToInt32(getal2);
 
-            for (int Getal1 <= int Getal2; Getal1 + 1)
+            for (int Getal1 <= int Getal2; Getal1++)
             {
                 Console.WriteLine(counter);
             }
