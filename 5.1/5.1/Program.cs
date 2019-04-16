@@ -10,6 +10,7 @@ namespace _5._1
     {
         static void Main(string[] args)
         {
+            //ShowNumbers1To25
             for (int i = 1; i <= 25; i++)
             {
                 Console.WriteLine(i);
